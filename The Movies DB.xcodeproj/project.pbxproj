@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					ABD836031FAD1902005788C7 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = J83X3QNJRW;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -260,6 +261,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J83X3QNJRW;
 				INFOPLIST_FILE = "The Movies DB/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.msalah.The-Movies-DB";
@@ -272,6 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J83X3QNJRW;
 				INFOPLIST_FILE = "The Movies DB/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.msalah.The-Movies-DB";
