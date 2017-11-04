@@ -11,7 +11,11 @@ import UIKit
 struct  Constants {
 
     
-    
+    // Services
+    static let SEARCH_SERVICE = "SEARCH"
+    static let POPULAR_ACTORS_SERVICE = "POP_ACT"
     
     
 }
+
+
