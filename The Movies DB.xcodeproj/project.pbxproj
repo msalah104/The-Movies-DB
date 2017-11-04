@@ -60,6 +60,8 @@
 		ABD836AA1FADE182005788C7 /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD836A91FADE182005788C7 /* Actor.swift */; };
 		ABD836AC1FADE51D005788C7 /* ActorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD836AB1FADE51D005788C7 /* ActorResponse.swift */; };
 		ABD836AE1FAE20AD005788C7 /* MoviesDBImageApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD836AD1FAE20AD005788C7 /* MoviesDBImageApi.swift */; };
+		ABF837011FAE32BA00743D03 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF837001FAE32BA00743D03 /* DetailsViewController.swift */; };
+		ABF837031FAE333700743D03 /* DetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF837021FAE333700743D03 /* DetailsPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -159,6 +161,8 @@
 		ABD836A91FADE182005788C7 /* Actor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Actor.swift; sourceTree = "<group>"; };
 		ABD836AB1FADE51D005788C7 /* ActorResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActorResponse.swift; sourceTree = "<group>"; };
 		ABD836AD1FAE20AD005788C7 /* MoviesDBImageApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesDBImageApi.swift; sourceTree = "<group>"; };
+		ABF837001FAE32BA00743D03 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		ABF837021FAE333700743D03 /* DetailsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +208,7 @@
 			children = (
 				ABD836281FAD23ED005788C7 /* The Movies DB-Bridging-Header.h */,
 				ABD836241FAD235A005788C7 /* Utils */,
+				ABF836FF1FAE328B00743D03 /* DetailsView */,
 				ABD836211FAD1C08005788C7 /* Home */,
 				ABD836201FAD1BD2005788C7 /* model */,
 				ABD8361F1FAD1BC6005788C7 /* view */,
@@ -368,6 +373,15 @@
 				ABD836AD1FAE20AD005788C7 /* MoviesDBImageApi.swift */,
 			);
 			name = TheMovieDBApi;
+			sourceTree = "<group>";
+		};
+		ABF836FF1FAE328B00743D03 /* DetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				ABF837001FAE32BA00743D03 /* DetailsViewController.swift */,
+				ABF837021FAE333700743D03 /* DetailsPresenter.swift */,
+			);
+			name = DetailsView;
 			sourceTree = "<group>";
 		};
 		ECAD291369D14D4652CEE706 /* Pods */ = {
@@ -539,12 +553,14 @@
 				ABD836231FAD1C31005788C7 /* HomeViewController.swift in Sources */,
 				ABD836AA1FADE182005788C7 /* Actor.swift in Sources */,
 				ABD836941FAD24EB005788C7 /* DGActivityIndicatorTriangleSkewSpinAnimation.m in Sources */,
+				ABF837011FAE32BA00743D03 /* DetailsViewController.swift in Sources */,
 				ABD836891FAD24EB005788C7 /* DGActivityIndicatorDoubleBounceAnimation.m in Sources */,
 				ABD836931FAD24EB005788C7 /* DGActivityIndicatorThreeDotsAnimation.m in Sources */,
 				ABD836A61FADCF3D005788C7 /* TheMovieDBApiManager.swift in Sources */,
 				ABD836791FAD24EB005788C7 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m in Sources */,
 				ABD8368B1FAD24EB005788C7 /* DGActivityIndicatorLineScaleAnimation.m in Sources */,
 				ABD836781FAD24EB005788C7 /* DGActivityIndicatorBallClipRotateAnimation.m in Sources */,
+				ABF837031FAE333700743D03 /* DetailsPresenter.swift in Sources */,
 				ABD836951FAD24EB005788C7 /* DGActivityIndicatorTriplePulseAnimation.m in Sources */,
 				ABD8368F1FAD24EB005788C7 /* DGActivityIndicatorNineDotsAnimation.m in Sources */,
 				ABD836841FAD24EB005788C7 /* DGActivityIndicatorBallSpinFadeLoader.m in Sources */,
